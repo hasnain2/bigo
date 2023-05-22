@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  flex: 1;
+}
+.mainContainer {
+  padding: 80px 0px;
+  margin-right: 21%;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.mainStyles {
+  font-family: "Lato", sans-serif;
+  font-size: 35px;
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 60px;
+}
+.bodyStyles {
+  margin: 15px 0px;
+  font-family: "Lato", sans-serif;
+  font-size: 12.5px;
+  line-height: 18.5px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.endContainer {
+  display: flex;
+  flex: 1;
+}
+.whatWeDoContainer {
+  display: flex;
+}
+.whatWeDoStyles {
+  font-size: 28px;
+  line-height: 33.8px;
+  font-family: "Roboto" sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  vertical-align: middle;
+}
+.chevronStyles {
+  padding: 0;
+  margin: 0;
+  height: 50px;
+  fill: #e7106c;
+}
+.whatWeDoTextContainer {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  padding-left: 30px;
+}

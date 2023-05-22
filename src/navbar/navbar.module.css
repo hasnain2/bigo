@@ -1,0 +1,108 @@
+.container {
+  display: flex;
+  flex: 1;
+  height: 60px;
+}
+.iconContainer {
+  display: flex;
+  flex: 1;
+}
+.titleIconContainer {
+  display: flex;
+  align-items: center;
+}
+.titleTextContainer {
+  display: flex;
+  height: 70px;
+  width: 70px;
+}
+.titleIconStyle {
+  height: 70px;
+  width: 70px;
+}
+.titleText {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.middleContainer {
+  display: flex;
+  flex: 3;
+}
+.middleContainer > div > p {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: white;
+}
+.middleContainer > div:hover > p {
+  color: #e7106c;
+}
+
+.homeStyles {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 4px solid transparent;
+  cursor: pointer;
+}
+.homeStyles:hover {
+  border-bottom: 4px solid #e7106c;
+  color: #e7106c;
+}
+.whatWeDoStyle {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 4px solid transparent;
+  cursor: pointer;
+}
+.whatWeDoStyle:hover {
+  border-bottom: 4px solid #e7106c;
+}
+.ourApproachStyle {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 4px solid transparent;
+  cursor: pointer;
+}
+.ourApproachStyle:hover {
+  border-bottom: 4px solid #e7106c;
+}
+.whoWeAreStyle {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 4px solid transparent;
+  cursor: pointer;
+}
+.whoWeAreStyle:hover {
+  border-bottom: 4px solid #e7106c;
+}
+.insightsStyle {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 4px solid transparent;
+  cursor: pointer;
+}
+.insightsStyle:hover {
+  border-bottom: 4px solid #e7106c;
+}
+.endContainer {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  align-self: end;
+  align-content: flex-end;
+}
+.menuStyle {
+  height: 20px;
+  width: 20px;
+  display: none;
+}

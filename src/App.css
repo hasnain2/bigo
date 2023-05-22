@@ -1,0 +1,26 @@
+div,
+p,
+h1,
+h2,
+h3,
+a {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  padding: 10px 60px;
+}
+.app {
+  min-width: 100%;
+  min-height: 100vh;
+  background-image: url("../src/assets/Artboard-13.jpg");
+  background-repeat: round;
+  background-attachment: fixed;
+}
+.hero {
+  min-width: 100%;
+  min-height: 450px;
+  background-image: url("../src/assets/hero-bg.jpg");
+  background-attachment: fixed;
+  background-repeat: round;
+}
